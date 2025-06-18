@@ -460,10 +460,6 @@ img {
   padding-bottom: 96px;
 }
 
-.features-container {
-  max-width: 288px;
-}
-
 .features-list {
   display: flex;
   flex-wrap: wrap;
@@ -662,7 +658,9 @@ img {
 
 @media screen and (min-width: 768px) {
   .team-container {
-    max-width: 552px;
+    padding-left: 108px;
+    padding-right: 108px;
+    /* max-width: 552px; */
   }
 
   .team-list {
@@ -684,6 +682,8 @@ img {
 
   .team-container {
     min-width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .team-list {
@@ -706,7 +706,9 @@ img {
 }
 
 .portfolio-container {
-  max-width: 288px;
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .portfolio-subtitle {
@@ -786,7 +788,9 @@ img {
 
 @media screen and (min-width: 768px) {
   .portfolio-container {
-    max-width: 736px;
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .portfolio-list {
     column-gap: 24px;
@@ -803,7 +807,7 @@ img {
     padding-bottom: 120px;
   }
   .portfolio-container {
-    max-width: 1128px;
+    max-width: 1158px;
   }
   .portfolio-list {
     column-gap: 24px;
@@ -1299,4 +1303,13 @@ img {
 .modal-button:hover,
 .modal-button:focus {
   background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+  }
+  .modal-input {
+    width: 360px;
+  }
 }
