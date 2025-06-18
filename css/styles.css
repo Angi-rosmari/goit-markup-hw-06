@@ -388,6 +388,15 @@ img {
   margin: 0 auto;
 }
 
+@media screen and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/herobg.jpg);
+  }
+}
 .hero-title {
   font-weight: 700;
   font-size: 36px;
@@ -418,6 +427,7 @@ img {
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .hero-button:hover,
 .hero-button:focus,
 .modal-button:hover,
@@ -435,6 +445,7 @@ img {
     padding-top: 112px;
     padding-bottom: 112px;
   }
+
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -443,6 +454,15 @@ img {
   }
 }
 
+@media screen and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/herobg.jpg);
+  }
+}
 @media screen and (min-width: 1158px) {
   .hero {
     padding-top: 188px;
@@ -452,7 +472,15 @@ img {
     margin-bottom: 48px;
   }
 }
-
+@media screen and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/herobg.jpg);
+  }
+}
 /* Features */
 
 .features {
@@ -928,6 +956,7 @@ img {
   display: block;
   text-align: center;
 }
+
 .footer-subscribe {
   padding-left: 16px;
   padding-right: 16px;
@@ -947,15 +976,19 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  opacity: 0.6;
+  /* opacity: 0.6; */
   margin-bottom: 16px;
 }
 
+.footer-input:focus,
+.footer-input:hover {
+  border: 1px solid #4d5ae5;
+  outline: none;
+}
 .footer-input::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
 }
 
 .footer-btn {
@@ -979,6 +1012,11 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #404bbf;
 }
 
 .footer-send-icon {
