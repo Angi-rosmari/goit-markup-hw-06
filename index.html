@@ -152,7 +152,6 @@
           </button>
         </div>
       </section>
-
       <section class="features">
         <div class="container features-container">
           <h2 class="visually-hidden">Features</h2>
@@ -219,6 +218,10 @@
             <li class="member-card">
               <img
                 class="member-image"
+                srcset="
+                  ./images/markmobile1x.jpg 1x,
+                  ./images/markmobile2x.jpg 2x
+                "
                 src="./images/mark.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -640,12 +643,14 @@
         <div class="subscribe-part">
           <p class="subscribe-title">Subscribe</p>
           <form class="footer-form">
-            <label aria-label="footer-email" class="footer-subscribe">
+            <label for="footer-email" class="footer-subscribe">
               <input
                 type="email"
                 name="footer-email"
                 placeholder="E-mail"
                 class="footer-input"
+                id="footer-email"
+                required
             /></label>
             <button type="submit" class="btn footer-btn">
               Subscribe
