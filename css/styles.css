@@ -307,6 +307,7 @@ img {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
+  margin-bottom: 48px;
 }
 .mobile-contact-link {
   font-weight: 500;
@@ -335,7 +336,7 @@ img {
   padding: 0;
   margin: 0;
   justify-content: flex-start;
-  margin-top: 48px;
+  padding-bottom: 40px;
 }
 
 .mobile-media-item {
