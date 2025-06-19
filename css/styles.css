@@ -373,28 +373,28 @@ img {
   padding-top: 72px;
   padding-bottom: 72px;
   background-color: #2e2f42;
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/heromob1.jpg);
   text-align: center;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero.jpg);
+    url(../images/heromob1.jpg);
   background-position: center center;
   justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
   margin: 0 auto;
+  max-width: 1440px;
 }
-
-@media screen and (min-resolution: 192dpi) {
+@media screen and (min-resolution: 2x) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/heromobile1x.jpg), url(../images/heromobile2x.jpg);
+      url(../images/heromob2.jpg);
   }
 }
 .hero-title {
@@ -444,6 +444,21 @@ img {
   .hero {
     padding-top: 112px;
     padding-bottom: 112px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/herotab1.jpg);
+  }
+
+  @media screen and (min-resolution: 2x) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/herotab2.jpg);
+    }
   }
 
   .hero-title {
@@ -454,33 +469,30 @@ img {
   }
 }
 
-@media screen and (min-resolution: 192dpi) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/herobg.jpg);
-  }
-}
 @media screen and (min-width: 1158px) {
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/herodesk1.jpg);
+  }
+  @media screen and (min-resolution: 2x) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/herodesk2.jpg);
+    }
   }
   .hero-title {
     margin-bottom: 48px;
   }
 }
-@media screen and (min-resolution: 192dpi) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/herobg.jpg);
-  }
-}
+
 /* Features */
 
 .features {
