@@ -404,7 +404,7 @@ img {
   background-size: cover;
   max-width: 100%;
   margin: 0 auto;
-  max-width: 1440px;
+  /* max-width: 1440px; */
 }
 @media screen and (min-resolution: 2x) {
   .hero {
@@ -490,7 +490,7 @@ img {
 
 @media screen and (min-width: 1158px) {
   .hero {
-    max-width: 1158px;
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(
@@ -935,7 +935,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-title {
